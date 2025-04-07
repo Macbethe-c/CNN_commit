@@ -10,6 +10,7 @@ transform = transforms.Compose([
     transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010))  # 标准化
 ])
 
+# this is a test
 # 打印图片的 shape 和对应的类别标签
 # print(f'Image batch dimensions: {images.shape}')
 # print(f'Label batch dimensions: {labels.shape}')
